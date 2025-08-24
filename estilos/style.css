@@ -19,8 +19,9 @@ body{
 }
 
 main{
-    height: 100vh;
     position: relative;
+    height: 100vh;
+    
 }
 
 section#telefone{
@@ -28,8 +29,9 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 627px;
-    width: 318px;
+
+    height: 627px;   /*627px*/
+    width:318px;    /*318px*/
     background:  url('../imagens/redefinida3.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 55px;
@@ -43,10 +45,11 @@ section#telefone{
 
 iframe#tela {
     position: absolute;/*relative;*/
-    top: 60px;
-    left: 25px;
-    height: 508px;
-    width: 260px;  /* 267px; */
+    top: 50px;
+    left: 9px;
+    width: 300px;
+    height: 529px;
+   
 }
 
 section#redes-sociais {
